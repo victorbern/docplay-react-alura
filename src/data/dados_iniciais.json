@@ -1,17 +1,17 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Documentários da TV",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
+        "text": "Documentarios da tv",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "O Segredo dos Deuses, ep. 1",
+          "url": "https://www.youtube.com/watch?v=yczNvJt9hYE&t=505s"
         },
         {
           "titulo": "SEO com React",

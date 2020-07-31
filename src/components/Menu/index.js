@@ -1,22 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/Logo.png';
 // Logo do site importado de ../../assets/img/Logo.png
 
 import './Menu.css';
-import ButtonLink from './components/ButtonLink';
+import Button from '../../components/Button';
 // tag ButtonLink importada porque muitos botões no site são igualmente feitos
 
 
 function Menu() {
     return (
         <nav className="Menu">
-            <a href="/">
+            <Link to="/">
                 <img className="Logo" src={Logo} alt="DocPlay logo"/>
-            </a>
+            </Link>
 
-            <ButtonLink className="ButtonLink" href="/">
+            <Button as={Link} className="ButtonLink" to="/cadastro/video">
                 Novo Video
-            </ButtonLink>
+            </Button>
             
         </nav>
     );
